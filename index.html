@@ -10,6 +10,43 @@
     <!-- Define title -->
     <title>Welcome!</title>
 
+    <style>
+  .recent-updates {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+
+  .recent-updates h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: #333;
+  }
+
+  .recent-updates ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .recent-updates li {
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    position: relative;
+    color: #555;
+  }
+
+  .recent-updates li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #007acc; /* Accent color */
+    font-weight: bold;
+  }
+</style>
+
+
     <!-- Include favicon. Use, e.g., https://favicon.io/ -->
     <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />
 
@@ -67,6 +104,16 @@
         </li>
       </ul>
     </section>
+
+    <section class="recent-updates">
+  <h2>Recent Updates</h2>
+  <ul>
+    <li><strong>April 2025:</strong> Published a paper on X at Conference Y.</li>
+    <li><strong>March 2025:</strong> Gave a talk at Z University about AI in Healthcare.</li>
+    <li><strong>February 2025:</strong> Joined the AI Lab full-time.</li>
+  </ul>
+</section>
+
   </body>
  
 </html>
