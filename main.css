@@ -33,6 +33,11 @@ a:hover {
     line-height: 1.6em;
 }
 
+.recent-updates {
+    text-align: left;
+    margin-top: 2rem;
+}
+
 .avatar {
     border-radius: 50%;
     width: 150px;
