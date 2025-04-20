@@ -50,7 +50,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     width: 70%;
-    max-width: 160px; /*320px;*/
+    max-width: 140px; /*320px;*/
     margin: 1em auto;
 }
 
