@@ -27,7 +27,7 @@ a:hover {
 
 #content {
     text-align: center;
-    max-width: 650px; /*520px;*/
+    max-width: 640px; /*520px;*/
     padding: 32px 16px;
     margin: 0 auto;
     line-height: 1.6em;
