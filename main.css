@@ -76,7 +76,7 @@ a:hover {
 }
 
 .career-highlights li::before {
-  content: "● ";
+  content: "‣ ";
   color: #1565c0;
   margin-right: 0.5rem;
   /*font-size: 1.5em;*/
