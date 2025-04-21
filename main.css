@@ -79,6 +79,7 @@ a:hover {
   content: "• ";
   color: #1565c0;
   margin-right: 0.5rem;
+  font-size: 100%;
 }
 
 .footer {
